@@ -1,0 +1,16 @@
+.weather_tile{
+    transition: background-color 0.2s ease;
+}
+
+.weather_tile:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.weather_tile_selected {
+    background-color: lightgray !important;
+}
+
+.weather_tile.weather_tile_selected {
+    background-color: lightgray !important;
+}
